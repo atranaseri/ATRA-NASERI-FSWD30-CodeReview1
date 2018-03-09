@@ -1,0 +1,132 @@
+@media only screen and (max-width:620px){
+    h2, li, p, figcaption{
+       font-size:14px;
+}
+    }
+h2, p {color: white;}
+
+body {
+	min-width:590px;
+	width: 100%;
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+header {
+
+	height: 100px;
+	width: 100%;
+	padding-top: 25px;
+	background: #f24355;
+}
+
+#logo {
+	
+	margin-right: 10px;
+	float: left;
+	clear:both;
+}
+
+.htext {
+	margin-left: 0px;
+	overflow: auto;
+	display: block;
+	
+
+}
+
+h2, li, figcaption  {
+	letter-spacing: 0.1em;
+}
+
+a, li, figcaption  {
+	letter-spacing: 0.1em;
+	color: black;
+}
+
+
+
+nav{
+	margin-top: -12px;
+	background:#847f7f;
+	height: 50px;
+	font-size: 23px;
+
+
+}
+
+
+
+ul{
+	list-style-type: none;
+	padding: 12px;
+}
+
+li {
+	float: left;
+
+	padding-right: 40px;
+
+}
+
+a.navlinks:hover {font-size: 1.1em;}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:focus {
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}
+
+.images {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	
+}
+
+.figure {
+	
+	width:45%;
+	float:left;
+	padding: 0;
+	margin: 2.5%;
+	
+}
+
+.figure3, .figure4 {
+
+	margin-bottom: 100px;
+
+}
+
+figcaption{
+	font-size: 1.4em;
+}
+
+footer {
+ 
+	padding-bottom: 15px;
+	text-align: center;
+	background: #f24355;
+
+	position:fixed;
+    bottom:0;
+    left:0;
+    height:35px;
+    width:100%;	
+}
+
